@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Micropipetas</title>
+    
+</head>
+<body>
+    <div>
+        <p id="tit">Micropipetas</p>
+        
+        <br>
+
+        <p>Volumen a pipetear: <input type="number" name="" id="vol"></p>
+    
+        <br>
+    
+        <h2><u>Resultados</u></h2>
+        <p>Utilizar una p<span id="pipeta">0</span></p>
+        <p>Recuerde COLOCAR el tip antes de comenzar a pipetear</p>
+        <br>
+        <p><span id="n1">0</span> </p>
+        <p><span id="n2">0</span> </p>
+        <p><span id="n3">0</span> </p>
+        <p id ="gato"> <br> El dígito restante, en este caso: <span id="nota"> 0 </span> 
+            debe de ajustarse considerando que cada rayita 
+        <p id= "gato2"> debajo del ultimo digito equivale a <span id="rayita"> 0 </span> microlitros </p> </p>
+        <br>
+        
+        
+        <button onclick="micropipetas()">Calcular</button>
+    </div>
+    <script src="micropipetas.js"></script>
+
+</body>
+</html>
