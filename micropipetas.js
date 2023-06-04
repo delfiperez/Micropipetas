@@ -53,6 +53,19 @@ function micropipetas(){
       console.log()
       console.log("el ultimo dígito debe de ajustarse en la micropipeta, utilizando...")
 
+    } else if (vol == 200) {
+      console.log("Usar una p200")
+      console.log("Recuerde COLOCAR el tip y utilizar el AMARILLO")
+      console.log()
+      document.getElementById("pipeta").innerHTML = 200;
+      document.getElementById("n1").innerHTML = 2;
+      document.getElementById("n2").innerHTML = 0;
+      document.getElementById("n3").innerHTML = 0;
+      document.getElementById("nota").innerHTML = 0;
+      document.getElementById("gato").style.display="none";
+      document.getElementById("gato2").style.display="none";
+      console.log()
+
     } else if (vol <= 199.9 && vol >= 100.1) {
 
         console.log("Usar una p200")
@@ -94,7 +107,7 @@ function micropipetas(){
         //2microlitrros
         console.log("el ultimo dígito debe de ajustarse en la micropipeta, utilizando...")
   
-      }else if (vol == 100) {
+      } else if (vol == 100) {
         console.log("Usar una p100")
         console.log("Recuerde COLOCAR el tip y utilizar el AMARILLO")
         console.log()
