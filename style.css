@@ -1,6 +1,125 @@
 *{
     font-size: 20px;
     font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: black;
+}
+div{
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom:4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 50%;
+    background-color: lightpink;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    padding: 40px;
+}
+
+body{
+    /*text-align: center;  
+    background: mistyrose;  /* fallback for old browsers */
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: mistyrose;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#tit{
+    /*font-size: 1.5rem;
+    text-decoration: underline;*/
+
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#vol {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    margin-top: 10px;
+    width:30%;
+  }
+
+#boton{
+
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  p {
+    text-align: center;
+    margin:0;
+  }
+  
+@media screen and (max-width: 600px) {
+    
+    body {
+        background-color: mistyrose;
+        padding-top: 70px;
+    }
+    div{
+        width:70%;
+        padding: 25px;
+    }
+    p{
+        text-align: center; 
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    #vol{
+        width: 70%;
+        padding-right: 5px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    #boton{
+        font-size: 14px;
+    }
+    }
+
+
+/* Style viejo, primera versión 
+
+*{
+    font-size: 20px;
+    font-style: italic;
     color: black;
 }
 div{
@@ -15,7 +134,7 @@ div{
 }
 body{
     text-align: center;  
-    background: mistyrose;  /* fallback for old browsers */
+    background: mistyrose;
 }
 #tit{
     font-size: 1.5rem;
@@ -32,3 +151,5 @@ body{
         padding: 5px;
         box-sizing: border-box;
     }}
+
+*/
