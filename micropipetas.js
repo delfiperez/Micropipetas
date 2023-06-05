@@ -1,4 +1,3 @@
-
 function micropipetas(){
     var vol = document.getElementById("vol").value;
 
